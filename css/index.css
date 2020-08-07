@@ -205,23 +205,38 @@ Page content
 .dashed {
     padding:0 2%;
     border-bottom:1px dashed black;
+    padding-bottom:1rem;
+}
+
+.facts-container {
+    display:flex;
+    flex-flow:row wrap;
 }
 
 .fact {
     /* border: 1px solid red; */
+    width:46%;
+    margin:1rem 1rem 2.5rem 1rem;
+    padding:0;
 }
 
-/* 
-================
-link button
-================
-*/
-.about-page section a {
+.fact img {
+    width:100%;
+}
+
+.fact a {
+    display:inline-block;
+    margin:1.2rem 0;
     border:2px solid black;
     border-radius:10px;
     padding:.6rem 1.5rem;
     background-color:white;
 }
+
+footer {
+    margin-top:3rem;
+}
+
 
 /* 
 ================
