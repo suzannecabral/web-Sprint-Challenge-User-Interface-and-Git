@@ -193,6 +193,26 @@ nav {
 
 /* 
 ================
+Page content
+================
+*/
+.jumboimg {
+
+    margin:0 0 1.5rem 0;
+}
+
+
+.dashed {
+    padding:0 2%;
+    border-bottom:1px dashed black;
+}
+
+.fact {
+    /* border: 1px solid red; */
+}
+
+/* 
+================
 link button
 ================
 */
