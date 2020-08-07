@@ -144,3 +144,40 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* 
+================
+General
+================
+*/
+
+body {
+    background-color:white;
+}
+
+/* 
+================
+Nav Bar
+================
+*/
+
+
+.navlinks {
+    display:flex;
+    justify-content:space-between;
+}
+
+
+header a {
+    text-decoration:none;
+    font-size:.9rem;
+    color:black;
+    margin:auto 0 0 0;
+    
+}
+
+nav {
+    margin:1rem 0 2rem 0;
+}
+
+
