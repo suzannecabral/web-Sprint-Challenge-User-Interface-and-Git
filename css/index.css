@@ -144,3 +144,149 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* 
+================
+General
+================
+*/
+
+body {
+    background-color:white;
+    line-height:1.5;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+/* 
+================
+Nav Bar
+================
+*/
+
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+}
+
+.navlinks {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    padding:0 0 0 0;
+}
+
+header a {
+
+    font-size:.9rem;
+    margin:auto 0 0 0;
+    
+}
+
+nav {
+    margin:1rem 0 2rem 0;
+}
+
+/* 
+================
+Page content
+================
+*/
+.jumboimg {
+
+    margin:0 0 1.5rem 0;
+}
+
+
+.dashed {
+    padding:0 2%;
+    border-bottom:1px dashed black;
+    padding-bottom:1rem;
+}
+
+.facts-container {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.fact {
+    /* border: 1px solid red; */
+    width:46%;
+    margin:1rem 1rem 2.5rem 1rem;
+    padding:0;
+}
+
+.fact img {
+    width:100%;
+}
+
+.fact a {
+    display:inline-block;
+    margin:1.2rem 0;
+    border:2px solid black;
+    border-radius:10px;
+    padding:.6rem 1.5rem;
+    background-color:white;
+}
+
+footer {
+    margin-top:3rem;
+}
+
+
+/* 
+================
+Box Puzzle
+================
+*/
+
+/* .boxes > .box {
+    background-color:red;
+} */
+
+/* .boxes div.box {
+    background-color:green;
+} */
+
+/* div.boxes {
+    background-color:yellow;
+} */
+
+/* .middle-content .boxes .box  {
+    background-color:darkred;
+} */
+
+.middle-content .boxes .box:nth-child(1)  {
+    background-color:teal;
+}
+.middle-content .boxes .box:nth-child(2)  {
+    background-color:gold;
+}
+.middle-content .boxes .box:nth-child(3)  {
+    background-color:cadetblue;
+}
+.middle-content .boxes .box:nth-child(4)  {
+    background-color:coral;
+}
+.middle-content .boxes .box:nth-child(5)  {
+    background-color:crimson;
+}
+.middle-content .boxes .box:nth-child(6)  {
+    background-color:forestgreen;
+}
+.middle-content .boxes .box:nth-child(7)  {
+    background-color:darkorchid;
+}
+.middle-content .boxes .box:nth-child(8)  {
+    background-color:hotpink;
+}
+.middle-content .boxes .box:nth-child(9)  {
+    background-color:indigo;
+}
+.middle-content .boxes .box:nth-child(10)  {
+    background-color:dodgerblue;
+}
