@@ -168,11 +168,17 @@ Nav Bar
 */
 
 
-.navlinks {
+.navbar {
     display:flex;
     justify-content:space-between;
 }
 
+.navlinks {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    padding:0 0 0 0;
+}
 
 header a {
 
